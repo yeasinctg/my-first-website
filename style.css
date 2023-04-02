@@ -1,3 +1,102 @@
-body{
-    background-color: aqua;
+.top-banner{
+    background-image: url("image/pic2.jfif");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+.name-highlight{
+    color: rgb(235, 11, 48);
+}
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+    padding-top: 2%;
+}
+.half-width img{
+    width: 100%;
+}
+h1{
+    font-size: 50px;
+    font-style: italic;
+    color: black;
+    text-shadow: 2px 2px 5px white;
+}
+h3{
+    text-shadow: 2px 2px 5px white;  
+}
+.link-button{
+    text-decoration: none;
+    background-color: green;
+    padding: 10px 20px;
+    font-weight: bold;
+    color: white;
+    font-style: italic;
+    border-radius: 5px;
+    
+}
+.top-banner p{
+    font-size: 30px;
+    font-weight: bold;
+    color: green;
+    text-shadow: 2px 2px 5px orangered;
+}
+
+.but-banner{
+    background-image: url("image/pic1.jfif");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    padding-bottom: 70px 0;    
+}
+.but-banner p{
+    font-size: 30px;
+    font-weight: bold;
+    color: green;
+    text-shadow: 2px 2px 5px orangered;
+
+}
+h2{
+    font-size: 50px;
+    font-style: italic;
+    color: black;
+    text-shadow: 2px 2px 5px white;
+    padding-bottom: 30px;
+}
+.experience-area{
+    background-image: url("image/pic2.jfif");
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+}
+p{
+    font-size: 20px;
+    color: black;
+    text-shadow: 2px 2px 5px red;
+}
+h2{
+    font-size: 30px;
+    font-style: italic;
+    color: black;
+    text-shadow: 2px 2px 5px red;
+}
+h3{
+    text-shadow: 2px 2px 5px green;  
+}
+.single-experience{
+    height: 55%;
+    box-shadow: 10px 10px 40px green ;
+}
+#full-stack{
+    border-left: 8px solid;
+    border-color: tomato;
+}
+#full-web{
+    border-left: 8px solid;
+    border-color: blue;
+
+}
+footer p{
+    text-align: center;
 }
